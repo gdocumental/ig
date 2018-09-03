@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test unitarios') {
       steps {
-        build '1'
+        echo 'prueba'
       }
     }
   }
